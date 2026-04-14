@@ -26,7 +26,7 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:5000',
-  'https://team3houndforward.netlify.app',
+  'https://team32.netlify.app',
   process.env.CLIENT_URL,
 ].filter(Boolean);
 
