@@ -23,18 +23,35 @@ await ensureBootstrapData();
 
 const app = express();
 
-app.use(
-  cors({
-    origin: process.env.CLIENT_URL || 'http://localhost:5173'
-  })
-);
+const allowedOrigins = [
+  'http://localhost:5173',
+  'http://localhost:5000',
+  'https://team3houndforward.netlify.app',
+  process.env.CLIENT_URL,
+].filter(Boolean);
+
+const corsOptions = {
+  origin(origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+      return;
+    }
+    callback(new Error('Not allowed by CORS'));
+  },
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
+app.options('*', cors(corsOptions));
 app.use(express.json({ limit: '1mb' }));
 app.use(morgan('dev'));
 
 app.get('/', (req, res) => {
   res.json({
     message: 'Special Miles API is running',
-    version: '2.0.0'
+    version: '2.1.0',
   });
 });
 
