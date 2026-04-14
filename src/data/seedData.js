@@ -364,59 +364,54 @@ export const resources = [
 export const siteContent = {
   "key": "default",
   "siteTitle": "Special Miles",
-  "supportEmail": "joeabboud74@gmail.com",
-  "supportPhone": "0411711800",
+  "supportEmail": "info@specialmiles.org",
+  "supportPhone": "+61 411 711 800",
   "locations": [
     "Sydney, NSW, Australia",
-    "Lebanon"
+    "Beirut, Lebanon"
   ],
   "ribbonItems": [
     {
-      "label": "Children & Students Supported",
-      "value": 1240,
-      "description": "Learners supported through programmes and coaching"
-    },
-    {
-      "label": "Educators Trained",
-      "value": 420,
-      "description": "Teachers and education teams engaged"
-    },
-    {
-      "label": "Employers & Organizations Trained",
-      "value": 95,
-      "description": "Workplaces and partners supported"
-    },
-    {
-      "label": "Families / Parents Consulted",
+      "label": "Families supported",
       "value": 680,
-      "description": "Parents and caregivers guided"
+      "description": "Parents and caregivers guided through practical support and consultations."
     },
     {
-      "label": "Advocacy & Awareness Sessions Conducted",
-      "value": 210,
-      "description": "Sessions delivered across communities"
+      "label": "Educators engaged",
+      "value": 420,
+      "description": "Educators, childcare teams, and school staff supported with training and tools."
+    },
+    {
+      "label": "Students supported",
+      "value": 1240,
+      "description": "Learners supported through coaching, programs, and inclusive pathways."
+    },
+    {
+      "label": "Workplaces reached",
+      "value": 95,
+      "description": "Employers and organisations supported with neuro-inclusive capability building."
     }
   ],
   "awards": [
     {
+      "title": "UN Global Compact SDG Pioneer / International SDG Pioneer",
+      "description": "Mireille Chrabieh was recognised for leadership and innovation in education inclusion."
+    },
+    {
+      "title": "Global Social Venture Competition (GSVC) – 1st Prize Winner",
+      "description": "Recognised for an innovative model advancing inclusive education and support for neurodiverse learners."
+    },
+    {
       "title": "Australian Global Talent (Distinguished) Visa",
-      "description": "Joe Abboud and Mireille Chrabieh were jointly granted national innovation recognition for global impact in inclusive education and neurodiversity."
+      "description": "Jointly awarded to Joe Abboud and Mireille Chrabieh in recognition of their innovation and global impact."
     },
     {
-      "title": "1st Prize Winner – GSVC",
-      "description": "Special Miles received first prize for its innovative social venture advancing inclusive education and support for neurodiverse learners."
+      "title": "MIT Media Lab, UNIDO & WEPs Participation",
+      "description": "Special Miles and its founders were selected for competitive international innovation and leadership programs."
     },
     {
-      "title": "UN Global Compact SDG Pioneer recognition",
-      "description": "Mireille Chrabieh was recognised for leadership and innovation in inclusive education aligned with the SDGs."
-    },
-    {
-      "title": "Speaker – Expo 2020 Dubai",
-      "description": "Special Miles contributed to a session on supporting SMEs and entrepreneurs through inclusive, innovation-driven practice."
-    },
-    {
-      "title": "MIT Media Lab Refugee Learning Accelerator",
-      "description": "Joe Abboud represented Special Miles in a global initiative focused on technology-enabled education solutions."
+      "title": "Expo 2020 Dubai & UN Global Compact Engagement",
+      "description": "Special Miles contributed through speaking and moderation roles in global inclusion and equity conversations."
     }
   ],
   "testimonials": [
@@ -440,7 +435,7 @@ export const siteContent = {
     {
       "category": "General",
       "question": "Who is Special Miles for?",
-      "answer": "Special Miles supports students, families, educators, childcare centres, schools, organisations, employers, and workplaces through tailored programs, consultancy, and digital resources.",
+      "answer": "Special Miles supports all individuals, including neurodivergent children, parents, educators, schools, childcare centres, students, NDIS-linked organisations, employers, and strategic partners. Our programs, consultancy, and digital resources are designed to be inclusive, strengths-based, and adaptable to diverse learning and support needs across all contexts.",
       "keywords": [
         "Special Miles",
         "neurodiversity programs",
@@ -450,7 +445,7 @@ export const siteContent = {
     {
       "category": "Programs",
       "question": "What can I access through the platform?",
-      "answer": "Users can explore programs, access digital resources, enrol in learning pathways, request consultancy or workshop bookings, send messages, track support tickets, and manage personalised settings in one place.",
+      "answer": "Users can explore programs, access digital resources, enquire about learning pathways, request consultancy or workshop bookings, send messages, track support tickets, and manage personalised settings in one place.",
       "keywords": [
         "digital resources",
         "consultancy bookings",
@@ -515,48 +510,6 @@ export const siteContent = {
         "password reset",
         "account access"
       ]
-    },
-    {
-      "category": "SEO",
-      "question": "What search topics does Special Miles support?",
-      "answer": "Special Miles helps with neurodiversity support, parenting neurodiverse children, teacher training on neurodiversity, study skills for neurodiverse students, NDIS-aligned support, learning difficulties, dyslexia, dyscalculia, dysgraphia, ADHD, autism, sensory processing, executive functioning, and workplace neurodiversity inclusion.",
-      "keywords": [
-        "Neurodiversity",
-        "neurodiverse children",
-        "parenting neurodiverse children",
-        "teacher training on neurodiversity",
-        "study skills for neurodiverse students",
-        "mental health for parents of neurodiverse children",
-        "mental health support for teachers",
-        "Autism Spectrum Disorder (ASD)",
-        "Attention-Deficit/Hyperactivity Disorder (ADHD)",
-        "Attention Deficit Disorder (ADD)",
-        "Dyslexia",
-        "Dyscalculia",
-        "Dysgraphia",
-        "Sensory Processing Disorder (SPD)",
-        "learning difficulties and learning disabilities",
-        "executive functioning difficulties",
-        "NDIS and related support",
-        "Innovative education solutions"
-      ]
-    },
-    {
-      "category": "SEO",
-      "question": "Do you support local and Australia-specific needs?",
-      "answer": "Yes. The platform is designed for families, educators, schools, and organisations across Australia, including Sydney and NSW, while remaining adaptable for international delivery and partnerships.",
-      "keywords": [
-        "NDIS autism support Australia",
-        "NDIS funding for neurodiverse children",
-        "NDIS parent training programs",
-        "NDIS teacher training programs",
-        "NDIS study skills programs",
-        "Learning difficulties and learning disabilities support in Sydney",
-        "Learning difficulties and learning disabilities support in Melbourne",
-        "Learning difficulties and learning disabilities support in Brisbane",
-        "Learning difficulties and learning disabilities support in Canberra",
-        "Learning difficulties and learning disabilities support in Perth"
-      ]
     }
   ],
   "seoKeywords": [
@@ -577,67 +530,15 @@ export const siteContent = {
     "learning difficulties and learning disabilities",
     "executive functioning difficulties",
     "NDIS and related support",
-    "Innovative education solutions",
-    "Innovative support for neurodiverse students",
-    "Unique approaches to learning difficulties and learning disabilities",
-    "How to support a child with ADHD in the classroom",
-    "How to support a child with ADD",
-    "Strategies for parents of autistic children",
-    "Classroom strategies for ADD and ADHD",
-    "Online study skills programs for dyslexic students",
-    "Mental health support for teachers of children with learning difficulties and learning disabilities",
-    "How to help a child with autism at school",
-    "Sensory processing disorder and autism",
-    "Autism meltdowns in children",
-    "ADHD and learning difficulties and learning disabilities",
-    "ADD executive function strategies",
-    "ADHD executive function strategies",
-    "ADHD inattentive type support",
-    "ADD inattentive type support",
-    "Dyslexia and writing difficulties",
-    "Orton-Gillingham dyslexia training",
-    "Signs of dyslexia in children",
-    "Dyscalculia and math anxiety",
-    "How to help a child with dyscalculia",
-    "Dysgraphia and fine motor skills",
-    "Neurodiversity training courses",
-    "Enroll in study skills programs",
-    "Enroll in ADD support programs",
-    "Consultation for autism support",
-    "ADD training courses for parents",
-    "ADD consultation services",
-    "Enroll in innovative learning programs",
-    "Sign up for digital support for dyslexia",
-    "Book a consultation for tech-based support for children with learning difficulties and learning disabilities",
-    "Register for neurodiversity innovation workshops",
-    "Purchase online sensory processing tools",
-    "NDIS autism support Australia",
-    "NDIS funding for neurodiverse children",
-    "NDIS parent training programs",
-    "NDIS teacher training programs",
-    "NDIS study skills programs",
-    "Learning difficulties and learning disabilities support in Sydney",
-    "Learning difficulties and learning disabilities support in Melbourne",
-    "Learning difficulties and learning disabilities support in Brisbane",
-    "Learning difficulties and learning disabilities support in Canberra",
-    "Learning difficulties and learning disabilities support in Perth",
-    "Learning difficulties and learning disabilities support in Adelaide",
-    "Special education services Australia",
-    "Neurodiversity support Australia",
-    "Innovative NDIS-funded programs Australia",
-    "Unique neurodiversity programs in Sydney",
-    "Unique neurodiversity programs in Melbourne",
-    "Technology in special education Australia",
-    "Inclusive education innovation Australia",
-    "Custom NDIS study skills plans Australia"
+    "Innovative education solutions"
   ],
   "socialLinks": {
-    "facebook": "https://facebook.com/",
-    "instagram": "https://instagram.com/",
-    "linkedin": "https://linkedin.com/",
-    "youtube": "https://youtube.com/"
+    "facebook": "https://www.facebook.com/SpecialMiles/",
+    "instagram": "https://www.instagram.com/special_miles/",
+    "linkedin": "https://au.linkedin.com/company/specialmiles",
+    "x": "https://x.com/Special_Miles"
   },
-  "announcement": "Now welcoming families, educators, schools, and organisations through the new multilingual Special Miles portal.",
+  "announcement": "",
   "publicSettings": {
     "defaultLanguage": "en",
     "supportedLanguages": [
